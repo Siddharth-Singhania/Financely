@@ -1,0 +1,234 @@
+.all{
+    width: 100%;
+    padding: 0rem 2rem;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+}
+
+
+
+.input-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    flex-basis: 75%;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    padding: 0rem 0.5rem;
+}
+
+.input-flex input{
+    width: 100%;
+    padding: 0.5rem ;
+    border: 0;
+}
+
+.input-flex input:focus{
+    outline: none;
+    
+}
+
+.input-flex img{
+    width: 16px;
+}
+
+.select-input{
+    flex-basis: 25%;
+}
+
+.file-input{
+    display: none;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.export-btn{
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    border: 1px solid var(--theme);
+    cursor: pointer;
+    color: var(--theme);
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.export-btn:hover{
+    background: var(--theme);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-blue{
+    background: var(--theme);
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: white;
+    color: var(--theme);
+    transition: 0.3s;
+}
+.table{
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.sort{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.sort h2{
+    font-weight: 400;
+}
+
+.input-radio{
+    margin-left: 20px;
+}
+
+
+@media (max-width: 1000px){
+    .export-btn{
+        width: 100px;
+    }
+    .btns{
+        gap: 15px;
+    }
+}
+
+@media(max-width: 800px){
+    .btns{
+        gap:5px;
+    }
+    .input-radio{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .export-btn{
+        margin: 0.5rem 0;
+        padding: 0.1rem;
+        width: 80px;
+    }
+    .sort{
+        margin: 5px;
+        padding: 10px;
+        align-items: center;
+    }
+    .btns{
+        display: block;
+        justify-content: end;
+    }
+    .table{
+        padding: 20px;
+    }
+    .sort h2{
+        text-align: center;
+    }
+    .input-radio{
+        display: grid;
+    }
+     .ant-table-cell{
+        padding: 10px !important;
+    }
+
+}
+
+@media(max-width: 600px){
+    .export-btn{
+        margin: 0.5rem 0;
+        padding: 0.1rem;
+        width: 80px;
+    }
+    .sort{
+        margin: 5px;
+        padding: 10px;
+        align-items: center;
+    }
+    .btns{
+        display: block;
+        justify-content: end;
+    }
+    .table{
+        padding: 20px;
+        
+    }
+    .sort h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    .input-radio{
+        display: grid;
+    }
+     .ant-table-cell{
+        padding: 5px !important;
+        margin: 5px !important;
+    } 
+}
+
+@media(max-width: 550px){
+    .export-btn{
+        margin: 1rem;
+        padding: 0.7rem;
+        width: 150px;
+    }
+    .sort{
+        display: block;
+        margin: 5px 1px;
+        padding: 10px 0px;
+        align-items: center;
+    }
+    .btns{
+        display: flex;
+        justify-content:center;
+    }
+    .table{
+        padding: 5px;
+        margin: 20px 0;
+        overflow: scroll;
+    }
+    .sort h2{
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+    .input-radio{
+        display: flex;
+        font-size: 0px;
+        padding: 5px 0;
+        justify-content: center;
+    }
+    .ant-table-cell{
+        padding: 10px !important;
+        margin: 10px !important;
+    } 
+}
+
+@media (max-width:400px){
+    .sort{
+        display: grid;
+    }
+}
+

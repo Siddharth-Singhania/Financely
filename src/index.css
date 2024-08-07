@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root{
+  --theme: #4b0082;
+  --black: #000;
+  --white: #fff;
+  --shadow: 0px 0px 30px 8px rgba(227,227,227,0.75);
+}
+/* #2980ff */
+input{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+.custom-input{
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: -1rem !important;
+}
+
+
+.custom-input::placeholder{
+  color: rgba(0,0,0,0.7) !important;
+}
+
+.custom-input:focus{
+  outline: none;
+  opacity: 1;
+  transition: 0.3s;
+}

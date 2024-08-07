@@ -1,0 +1,50 @@
+.my-card{
+    box-shadow: var(--shadow);
+    min-width: 400px;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    flex: 1;
+}
+
+.my-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    gap: 16px;
+} 
+
+
+.my-card p{
+    margin: 0;
+}
+
+.ant-card-head-title{
+    margin: 0;
+    font-weight: 500;
+}
+
+@media (max-width: 1300px){
+    .my-card{
+        min-width: 300px;
+    }
+}
+@media (max-width: 800px){
+    .my-card{
+        margin: 1rem;
+    }
+    .my-row{
+        gap:10px;
+        margin: 2px 0px;
+    }
+}
+@media (max-width: 500px){
+    .my-card{
+        margin: 2rem;
+    }
+    .my-row{
+        gap: 5px;
+        margin: 2px;
+    }
+}

@@ -1,0 +1,18 @@
+.transaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.transaction img{
+    width: 400px;
+    margin: 4rem;
+}
+
+.transaction p{
+    text-align: center;
+    font-size: 1.2rem;
+}

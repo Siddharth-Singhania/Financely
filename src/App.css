@@ -1,0 +1,18 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.load{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+.load p{
+  font-weight: 600;
+  font-size: 25px;
+}

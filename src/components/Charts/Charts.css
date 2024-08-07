@@ -1,0 +1,63 @@
+.charts-wrapper{
+    display: flex;
+
+}
+.cards{
+    box-shadow: var(--shadow);
+    margin: 1rem;
+    width: 900px;
+    border-radius: 0.5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: 16px;
+} 
+
+@media (max-width: 1300px){
+    .charts-wrapper{
+        display: flex;
+    }
+    .rows{
+        gap: 5px;
+        margin: 0;
+    }
+    .cards{
+        max-width: 550px;
+    }
+}
+
+@media(max-width: 1000px){
+    .rows{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px){
+    .charts-wrapper{
+        display: grid;
+    }
+    .cards{
+        margin: 1rem 2rem;
+    }
+    .rows{
+        margin: 0rem 2rem ;
+        display: flex;
+        justify-content: center;
+    }
+}
