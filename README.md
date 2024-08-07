@@ -1,6 +1,6 @@
 # Financely - A Personal Finance Tracker
 
-To Run use 
+To use you can Run: 
 # npm run dev 
 Runs the app in the development mode.
 Open http://localhost:5173 to view it in your browser.
