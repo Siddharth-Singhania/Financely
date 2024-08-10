@@ -1,4 +1,4 @@
-# Financely - A Personal Finance Tracker
+# A Personal Finance Tracker
 
 To use you can Run: 
 # npm run dev 
